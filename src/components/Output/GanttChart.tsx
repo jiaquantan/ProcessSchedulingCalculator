@@ -23,10 +23,11 @@ const Title = styled.h2`
 
 const JobContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const Job = styled.div`
-  width: 50px;                // set the width of the Job component.
+  width: 40px;                // set the width of the Job component.
   height: 40px;               // set the height of the Job component.
   border: 3px solid #ff0800;  // set the border's weight & colour of the Job component.
   background-color: #051d40;  // set the background colour of the Job component.
@@ -44,10 +45,11 @@ const Job = styled.div`
 
 const TimeContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const Time = styled.div`
-  width: 50px;            // set the width of the Time component.
+  width: 40px;            // set the width of the Time component.
   height: 20px;           // set the height of the Time component.
   ${media['600']`
     width: 32px;
