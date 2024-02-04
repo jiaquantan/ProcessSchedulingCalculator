@@ -23,15 +23,15 @@ const options: OptionType[] = [
   defaultOption,
   {
     value: 'SJF',
-    label: 'Shortest Job First, SJF (non-preemptive)',
+    label: 'Non Preemptive SJF',
   },
   {
     value: 'NPP',
-    label: 'Priority (non-preemptive)',
+    label: 'Non Preemptive Priority',
   },
   {
     value: 'PP',
-    label: 'Priority (preemptive)',
+    label: 'Preemptive Priority',
   },
 ];
 
