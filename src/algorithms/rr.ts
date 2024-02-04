@@ -6,18 +6,15 @@ export const rr = (
   timeQuantum: number
 ) => {
   const processesInfo = arrivalTime
-    .map((item, index) => {
-      const job =
-        arrivalTime.length > 26
-          ? `P${index + 1}`
-          : (index + 10).toString(36).toUpperCase();
+  .map((item, index) => {
+    const job = `P${index}`;
 
-      return {
-        job,
-        at: item,
-        bt: burstTime[index],
-      };
-    })
+    return {
+      job,
+      at: item,
+      bt: burstTime[index],
+    };
+  })
     .sort((obj1, obj2) => {
       if (obj1.at > obj2.at) return 1;
       if (obj1.at < obj2.at) return -1;
