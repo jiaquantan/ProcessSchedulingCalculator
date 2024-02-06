@@ -1,5 +1,5 @@
 # TSN2101 Operating System Assignment
-* If you are viewing this markdown file in vscode, please read in preview mode (Ctrl+Shift+V)
+* If you are viewing this markdown file in vscode, please read it in preview mode (Ctrl+Shift+V)
 
 # TC4L | T14L
 
@@ -21,6 +21,7 @@
 ## Built with
 - Next.js
 - TypeScript
+- JavaScript
 - styled-components
 - React (GUI)
 
