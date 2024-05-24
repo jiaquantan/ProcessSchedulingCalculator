@@ -1,12 +1,3 @@
-# TSN2101 Operating System Assignment
-* If you are viewing this markdown file in vscode, please read it in preview mode (Ctrl+Shift+V)
-
-# TC4L | T14L
-
-# Author
-- Name: TAN JIA QUAN
-- Student ID: 1211104578
-
 # Process Scheduling Calculator
 - A web based tool to generate gantt chart and calculate TAT (turnaround time) and WAT (waiting time) based on various scheduling algorithms.
 - **[Prototype](https://process-scheduling-calculator-deploy.vercel.app/)**
