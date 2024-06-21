@@ -52,7 +52,7 @@ export default function Home() {
     <div>
       {/* This is a <Head> component in a React application. It’s used to set the metadata of the webpage, which is information about the webpage that isn’t displayed on the page itself but is machine-readable.*/}
       <Head>
-        <title>TSN2101 OS Assignment</title> {/* Title of the webpage, which is displayed on the browser tab */}
+        <title>Process Scheduling Calculator</title> {/* Title of the webpage, which is displayed on the browser tab */}
         <meta
           name="description"
           content="Dynamically generates gantt chart and calculates TAT (turnaround time) and WAT (waiting time) based on various CPU scheduling algorithms."
